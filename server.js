@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var Client = require('node-rest-client').Client;
-var options_auth={user:"h59tfr5dtfhdu",password:"fr6qgHmyfSxbqD5ifav5my3Cc_IlKlFRzzAvIiqdAKk"};
+var options_auth={user:"user",password:"password"};
 
 app.use(express.static('/media/Gudang_Touro/public'));
 app.use(express.static('/media/Gudang_Touro/public/assets'));
